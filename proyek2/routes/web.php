@@ -22,7 +22,7 @@ use App\Http\Controllers\Frontend\FrontController;
 //     return view('welcome');
 // });
 
-//Route::get('/', [FrontController::class, 'index']);
+Route::get('/', [FrontController::class, 'index']);
 
 Auth::routes();
 
